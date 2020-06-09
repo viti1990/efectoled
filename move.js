@@ -19,9 +19,22 @@ window.addEventListener("load",function(){
 
             })
 
+    var cantidad_productos = 1
 
+            $(".slider-numero__cantidad").val(cantidad_productos)
 
+                $(".slider-numero__resta").click(function () {
+                    if (cantidad_productos >1){
+                        cantidad_productos--
+                        $(".slider-numero__cantidad").val(cantidad_productos)
+                    }
 
+              })
+
+            $(".slider-numero__suma").click(function () {
+                cantidad_productos++
+                $(".slider-numero__cantidad").val(cantidad_productos)
+            })
 
 
 
