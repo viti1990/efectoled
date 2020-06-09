@@ -1,0 +1,131 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cabecera {
+  background: yellow;
+}
+.cabecera__search {
+  position: absolute;
+  right: 16px;
+  padding: 5px;
+  z-index: 99;
+}
+.cabecera__micro {
+  position: absolute;
+  right: 0px;
+  z-index: 99;
+  padding: 5px;
+}
+.cabecera__titulo {
+  margin-right: auto;
+}
+.cabecera__item {
+  padding: 0px 5px;
+}
+.cabecera__input {
+  width: 100%;
+  border: 1px gray solid;
+  padding: 3px 10px;
+}
+
+.aviso-covid {
+  background: red;
+}
+.aviso-covid__cerrar {
+  min-width: 57px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+}
+.container__input {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  background: yellow;
+  display: flex;
+  align-items: center;
+}
+
+.datos-cabecera {
+  background: blue;
+}
+
+.margenes {
+  padding: 10px 20px;
+}
+
+.carrusel {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 20px;
+  overflow: hidden;
+  transition: 1s !important;
+}
+.carrusel__flechas {
+  position: absolute;
+  bottom: 0px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  z-index: 999;
+}
+.carrusel__producto {
+  min-width: 150px;
+  padding: 15px;
+  height: 100px;
+  background: red;
+  margin: 10px;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  padding: 15px 0px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  padding: 15px;
+}
+
+.bloque2 {
+  display: none;
+}
+
+.producto__item {
+  display: flex;
+  padding-bottom: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+.producto__fig {
+  max-width: 100px;
+}
+.producto__imagen {
+  width: 100%;
+}
+.producto__pre-price {
+  font-size: 8px;
+}
+.producto_price {
+  font-size: 15px;
+}
+
+@media (max-width: 500px) {
+  .producto__item {
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

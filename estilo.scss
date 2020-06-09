@@ -1,0 +1,164 @@
+
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.cabecera{
+background: yellow;
+    &__search{
+      position: absolute;
+      right: 16px;
+      padding: 5px;
+      z-index: 99;
+    }
+
+    &__micro{
+      position: absolute;
+      right: 0px;
+      z-index: 99;
+      padding: 5px;
+    }
+
+  &__titulo{
+    margin-right: auto;
+  }
+
+  &__item{
+    padding: 0px 5px;
+  }
+
+  &__input{
+    width: 100%;
+    border:1px gray solid;
+    padding: 3px 10px;
+
+  }
+
+
+
+
+}
+
+.aviso-covid{
+background:red;
+
+  &__cerrar{
+    min-width: 57px;
+  }
+}
+
+.container{
+  margin: auto;
+  max-width: 1200px;
+  justify-content: space-between;
+  display: flex;
+
+  position: relative;
+
+
+    &__input{
+      width: 100%;
+      text-align: center;
+      position: relative;
+      background: yellow;
+      display: flex;
+      align-items: center;
+    }
+}
+
+.datos-cabecera{
+  background: blue;
+}
+
+.margenes{
+  padding: 10px 20px;
+}
+
+.carrusel{
+  margin: auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 20px;
+  overflow: hidden;
+  transition: 1s !important;
+
+
+
+  &__flechas{
+    position: absolute;
+bottom: 0px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    z-index: 999;
+  }
+  &__producto{
+   min-width: 150px;
+    padding: 15px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+  }
+}
+
+.slider{
+  overflow: hidden;
+  position: relative;
+  padding: 15px 0px;
+}
+
+
+ul{
+  display: flex;
+
+}
+
+ul li{
+  padding: 15px;
+}
+
+.bloque2{
+  display: none;
+}
+
+
+.producto{
+
+  &__item{
+    display: flex;
+    padding-bottom: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__fig{
+  max-width: 100px;
+  }
+
+  &__imagen{
+    width: 100%;
+  }
+
+ &__pre-price{
+   font-size: 8px;
+ }
+
+  &_price{
+    font-size: 15px;
+  }
+
+
+}
+
+
+@media (max-width: 500px){
+  .producto {
+
+    &__item {
+      flex-direction: row;
+    }
+
+  }
+}
