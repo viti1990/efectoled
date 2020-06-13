@@ -250,6 +250,26 @@ margin-bottom: 5px;
 }
 
 
+.item1 , .item2, .item3, .item4{
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+}
+
+.item2, .item3, .item4{
+  display: none;
+}
+
+.formulario{
+  height: 250px;
+  position: relative;
+  display: flex;
+}
+
+.enviartodo{
+  display: none;
+}
+
 @media (max-width: 500px){
   .producto {
 
