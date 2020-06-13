@@ -10,7 +10,7 @@
 
 
     <title>EFECTOLED</title>
-
+    <link rel="stylesheet" href="estilo.scss">
 
 
 </head>
@@ -149,6 +149,43 @@
                 </div>
         </div>
         </div>
+
+
+<section class="formulario">
+ <form class="formu">
+    <div class="item1">
+        <h2>¿cuantos años?</h2>
+        <input type="number"  name="edad" class="item1__input">
+        <button class="item1__btn">ENVIAS</button>
+    </div>
+
+    <div class="item2">
+        <h2>¿color favorito?</h2>
+        <input type="text" name="color" class="item2__input">
+        <button class="item2__btn">ENVIAS</button>
+    </div>
+     <div class="item4">
+         <input type="radio" name="radio" value="radio1" checked="checked" id="r1">
+         <label for="r1">radio1</label>
+         <input type="radio" name="radio" value="radio2" id="r2">
+         <label for="r2">radio2</label>
+         <button class="siguiente">Next</button>
+     </div>
+
+    <div class="item3">
+        <h2>¿dia preferido?</h2>
+        <input type="text" name="dia" class="item3__input">
+
+    </div>
+
+
+        <input type="submit" value="enviar Todo" class="enviartodo">
+    </form>
+
+
+
+</section>
+
 
 </body>
 </html>
