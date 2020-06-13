@@ -42,6 +42,9 @@ window.addEventListener("load",function(){
 
 
 
+            $(".slider-numero__cantidad").blur(function(){
+                cantidad_productos = $(this).val()
+            })
 
 
 
